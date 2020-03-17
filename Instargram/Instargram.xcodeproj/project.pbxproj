@@ -15,6 +15,7 @@
 		FF14809224176D6900387F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF14809024176D6900387F1F /* LaunchScreen.storyboard */; };
 		FF14809D24176D6900387F1F /* InstargramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF14809C24176D6900387F1F /* InstargramTests.swift */; };
 		FF1480A824176D6900387F1F /* InstargramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1480A724176D6900387F1F /* InstargramUITests.swift */; };
+		FF4E32DE241A993F0080B708 /* billabong.otf in Resources */ = {isa = PBXBuildFile; fileRef = FF4E32A12419F6A40080B708 /* billabong.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FF1480A324176D6900387F1F /* InstargramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstargramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1480A724176D6900387F1F /* InstargramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstargramUITests.swift; sourceTree = "<group>"; };
 		FF1480A924176D6900387F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4E32A12419F6A40080B708 /* billabong.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = billabong.otf; path = ../../../font/billabong.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		FF14808424176D6700387F1F /* Instargram */ = {
 			isa = PBXGroup;
 			children = (
+				FF4E32A02419F6560080B708 /* font */,
 				FF14808524176D6700387F1F /* AppDelegate.swift */,
 				FF14808724176D6700387F1F /* SceneDelegate.swift */,
 				FF14808924176D6700387F1F /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				FF1480A924176D6900387F1F /* Info.plist */,
 			);
 			path = InstargramUITests;
+			sourceTree = "<group>";
+		};
+		FF4E32A02419F6560080B708 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				FF4E32A12419F6A40080B708 /* billabong.otf */,
+			);
+			path = font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			files = (
 				FF14809224176D6900387F1F /* LaunchScreen.storyboard in Resources */,
 				FF14808F24176D6900387F1F /* Assets.xcassets in Resources */,
+				FF4E32DE241A993F0080B708 /* billabong.otf in Resources */,
 				FF14808D24176D6700387F1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
